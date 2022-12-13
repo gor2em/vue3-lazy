@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  nav ul li {
+    @apply text-white hover:text-cyan-400 transition-all duration-300 cursor-pointer;
+  }
+}
